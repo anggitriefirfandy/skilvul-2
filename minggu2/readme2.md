@@ -66,6 +66,8 @@
         }
         sapa();
         ```
+    * cara menghadapi dan menyelesaikan bug
+        ketika code yang kita jalankan tidak tampil atau muncul error maka kita bisa melihat di konsol, caranya kita klik kanan pada website lalu pilih inspect, dan pilih konsol, lalu kita lihat di konsol apa yang muncul, misalnya ada pesan error maka jangan panik, kita bisa melihat erorrnya dimana dengan melihat line yang error pada sebelah kanan pesan errornya, lalu untuk menyelesaikannya bisa kita telusuri bagian mana yang error, ketika kita sudah melakukan berbagai cara tapi masih error kita bisa browsing barangkali codingan yang telah dibuat salah syntax atau mungkin saja typo atau kurang karakternya.
         
 ## DAY 2
 * ### Data type built in prototype and method
