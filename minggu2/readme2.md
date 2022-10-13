@@ -31,6 +31,42 @@
             //kodenya
         }
         ```
+        contoh
+        ```javascript
+        function sapa(){
+            console.log("halo")
+        }
+        ```
+    * memanggil function
+        cara untuk memanggil function yaitu dengan menuliskan nama functionnya lalu diberi kurung buka dan kurung tutup.
+        ```javascript
+        sapa();
+        ```
+    * Arguments
+        argumen adalah nilai yang diteruskan ke dalam fungsi saat fungsi dipanggil
+        ```javascript
+        function functionName(parameter1, parameter2){
+            //code
+        }
+        functionName(argumen1,argumen2)
+        ```
+    * parameter
+        parameter adalah variabel yang terdaftar menjadi bagian dari definisi fungsi
+        ```javascript
+        function functionName(parameter1, parameter2){
+            //code
+        }
+        functionName(argumen1,argumen2)
+        ```
+    * arrow function
+        arrow function adalah cara lain menuliskan function, ini adalah fitur terbaru yang ada pada ES6
+        ```javascript
+        let sapa = () => {
+            console.log("halo")
+        }
+        sapa();
+        ```
+        
 ## DAY 2
 * ### Data type built in prototype and method
     * Data type
