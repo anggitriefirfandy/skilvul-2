@@ -1,6 +1,7 @@
 # Writing week3
 ### DAY 1
 * ### Array
+    * Array adalah variabel yang berisi banyak nilai(item), untuk bentuknya dibungkus dengan kurung siku `[]`
     * membuat array
         ```javascript
         let namaArray = [element1, element2, element3]
@@ -77,6 +78,7 @@
         console.log(tampilAngka)
         ```
 * ### array multi dimensional
+    * array of multi-dimensional adalah sebuah array yang berisikan array lagi didalamnya. Konsep penggunaanya sama dengan array biasa(satu dimensi), hanya saja jumlah indeks yang digunakan saat mengakses nilai didalam array adalah sebanyak dimensi dari array tersebut
     * contoh array multi dimensi
         ```javascript
         let arrMulti = [
@@ -95,6 +97,7 @@
         ```
 ### DAY 2
 * ### Object
+    * Object adalah entitas yang independen dimana ia memiliki metode dan properti atau biasa disebut key dan value
     * Membuat object
         ```javascript
         //syntax dasarnya
@@ -239,6 +242,7 @@
         }
         ```
     * Array of object
+        * array of object adalah sebuah array yang didalamnya terdapat beberapa object
         ```javascript
         let artist = [
             {
@@ -335,7 +339,7 @@
     * sifat javascript
         1. single-thread yaitu hanya mempunyai 1 jalur
         2. non-blocking yaitu mengijinkan proses selanjutnya untuk mendahului jika proses sebelumnya lebih lama dari yang mau mendahului
-        3. asynchronous yaitu urutan perintah yang acak karena harus memanggil perintah yang belum selesai
+        3. asynchronous yaitu code akan dieksekusi tanpa menunggu eksekusi dari code lain selesai sehingga seakan akan dieksekusi secara bersamaan
     * kunci javascript asynchronous
         1. callback
         2. promise
